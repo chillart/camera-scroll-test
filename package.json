@@ -1,0 +1,26 @@
+{
+  "name": "@example/basics",
+  "type": "module",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "astro": "^1.9.0",
+    "cannon": "^0.6.2",
+    "glslify": "^7.1.1",
+    "gsap": "^3.11.5",
+    "lil-gui": "^0.17.0",
+    "three": "^0.148.0",
+    "vite-plugin-glslify": "^2.0.1"
+  },
+  "devDependencies": {
+    "glsl-noise": "^0.0.0",
+    "sass": "^1.57.1"
+  }
+}

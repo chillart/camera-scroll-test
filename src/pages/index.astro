@@ -1,0 +1,21 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="TOP TITLE" description="test">
+	<main>
+		<h1>Welcome to <span class="text-gradient">Astro</span></h1>
+		<div class="test">
+			<a href="/about">to about page</a>
+		</div>
+	</main>
+</Layout>
+
+<style lang="scss">
+	
+</style>
+
+<script>
+	import {top} from "../assets/js/toppage"
+	top.init()
+</script>
