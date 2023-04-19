@@ -24,7 +24,7 @@ class Model{
         this.dracoLoader = new DRACOLoader()
         this.gltfLoader.setDRACOLoader(this.dracoLoader)
         this.gltfLoader.load(
-            "/models/scene_dammy.glb",
+            "/models/scene1.glb",
             (gltf) =>{
                 stage.scene.add(gltf.scene)
                 this.cameraObject = gltf.scene.getObjectByName("CameraData")
@@ -33,7 +33,7 @@ class Model{
                 cameraAction.play()
                 
                 stage._setCamera()
-                this.mountain = new Mountain(gltf.scene.getObjectByName('mountain'))
+                // this.mountain = new Mountain(gltf.scene.getObjectByName('mountain'))
             }
         )            
     }
